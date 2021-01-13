@@ -369,7 +369,7 @@ if(scoreInfo){
 startButton.addEventListener('click', () => {
   restartGame()
 
-  cardDiv.style.pointerEvents = "none"
+  this.style.pointerEvents = "none"
 
   setTimeout(function() {
 
